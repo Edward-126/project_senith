@@ -96,6 +96,63 @@
 
 // -----------------------------------------------------------------------------------
 
+#services {
+    height: 100vh;
+
+    .carousel {
+        margin-bottom: 4rem;
+    }
+
+    .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+    }
+
+    .carousel-item-1 {
+        position: relative;
+        background-image: url(https://raw.githubusercontent.com/Thili-126/Images/main/PlaceHolders/1080p.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    .carousel-item-2 {
+        position: relative;
+        background-image: url(https://raw.githubusercontent.com/Thili-126/Images/main/PlaceHolders/1080p.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    .carousel-caption {
+        z-index: 1;
+        // text-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
+
+}
+
+// -----------------------------------------------------------------------------------
+
 #footer {
     height: auto;
 }
